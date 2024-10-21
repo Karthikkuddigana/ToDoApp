@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>Hello world</p> -->
+    <dialog>
+        <form method="dialog" id="myform">
+            <label for="ProjectName">Enter the project Name:</label>
+            <br>
+            <input type="text" id="ProjectName" required>
+            <br>
+            <label for="ProjectDesc">Enter the project Description:</label>
+            <input type="text" id="ProjectDesc" required>
+            <input type="submit" value="SubmitEnter">
+        </form>
+    </dialog>
+    <div id="ContentDiv">
+        <div id="SideHeader">
+            <div id="HeadingContent">
+                <div id="Heading">Tasks</div>
+                <div id="Button"><button id="AddProjects">Add Projects</button></div>
+            </div>
+        </div>
+        <div id="TaskContent"></div>
+    </div>
+    <script src="script.js"type="module"></script>
+</body>
+</html>

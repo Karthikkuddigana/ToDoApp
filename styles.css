@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#ContentDiv{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color:#64748b;
+    width: 50%;
+    height: 75%;
+    /* padding: 5%; */
+
+}
+#SideHeader{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+    /* display: flex; */
+    /* display: inline-block; */
+}
+
+#TaskContent{
+    /* display: inline-block; */
+    width: 70%;
+    height: 100%;
+    /* margin-left: 30%; */
+    border: 2px solid black;
+}
+
+#Heading{
+    padding: 2%;
+    font-weight: bolder;
+    font-size: x-large;
+    border-bottom: 2px solid black;
+}
+#Button{
+    border-bottom: 2px solid black;
+}
+
+#HeadingContent{
+    display: flex;
+    height: 10%;
+    justify-content: space-evenly; 
+}
+
+textarea{
+    resize: none;
+}
+
+dialog{
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%; 
+    left: 30%;
+    padding: 5%;
+}
+
+.project-list{
+    text-align: center;
+    border: 2px solid black;
+    padding: 2%;
+}
