@@ -3,7 +3,8 @@ class project{
     constructor(name,description){
         project.projectList.push({
             name:name,
-            description:description
+            description:description,
+            tasks:[], 
         })
     } 
 }

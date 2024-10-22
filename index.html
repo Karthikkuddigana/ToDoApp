@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- <p>Hello world</p> -->
-    <dialog>
+    <dialog id="AddProject">
         <form method="dialog" id="myform">
             <label for="ProjectName">Enter the project Name:</label>
             <br>
@@ -16,7 +16,16 @@
             <br>
             <label for="ProjectDesc">Enter the project Description:</label>
             <input type="text" id="ProjectDesc" required>
-            <input type="submit" value="SubmitEnter">
+            <input type="submit" value="SubmitEnter" id="SubmitProject">
+        </form>
+    </dialog>
+    <dialog id="AddTask">
+        <form method="dialog" id="myform">
+            <label for="TaskName">Enter the task Name:</label>
+            <br>
+            <input type="text" id="TaskName" required>
+            <br>
+            <input type="submit" value="SubmitEnter" id="SubmitTask">
         </form>
     </dialog>
     <div id="ContentDiv">
